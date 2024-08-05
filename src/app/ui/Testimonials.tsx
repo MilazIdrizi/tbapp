@@ -20,6 +20,7 @@ const Testimonials = () => {
             <div className="flex flex-wrap justify-center">
                 {testimonials.map((testimonial, index) => (
                     <div key={index} className="bg-white shadow-md rounded-lg m-4 p-4 w-80">
+                        {/* eslint-disable-next-line react/no-unescaped-entities */}
                         <p className="text-gray-700 mb-2">"{testimonial.text}"</p>
                         <p className="text-gray-600 font-semibold text-right">- {testimonial.name}</p>
                     </div>

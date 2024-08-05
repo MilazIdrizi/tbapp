@@ -26,6 +26,7 @@ const NewsletterSubscription = () => {
                     required
                 />
                 <button type="submit" className="bg-white text-blue-500 px-6 py-3 rounded-full">
+                    {/* eslint-disable-next-line react/no-unescaped-entities */}
                     S'inscrire
                 </button>
             </form>
